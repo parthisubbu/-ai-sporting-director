@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
-import { AuthForm } from "../login/page";
+import { AuthForm } from "@/components/auth/AuthForm";
 
 export default function SignupPage() {
   const [email, setEmail]       = useState("");
