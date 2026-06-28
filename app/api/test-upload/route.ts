@@ -172,8 +172,8 @@ export async function POST(req: NextRequest) {
       playstyles: p.playStyles ?? [],
       playstyles_plus: p.playStylesPlus ?? [],
       traits: [],
-      development: undefined,
-      injury: undefined,
+      development: {},
+      injury: {},
       is_user_squad: p.isUserTeam,
       is_youth: p.isYouthPlayer,
     }));
